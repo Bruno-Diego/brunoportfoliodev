@@ -20,12 +20,12 @@ const Navbar = () => {
                   }}
               >
                   {/* <img className='w-2/5' src={logoBeLinked} alt="BeLinked logo with a font with light effect" /> */}
-                  <div className='ml-2 text-center'>
+                  <div className='ml-5 text-center'>
                       <h1 className='font-horizon text-3xl logo-neon leading-none text-white'>BELINKED</h1>
-                      <p className='font-aileron text-[9px] tracking-[.25em] leading-none'>CONNECTING PEOPLE</p>
+                      <p className='font-aileron text-[9px] tracking-[.25em] leading-none text-white'>CONNECTING PEOPLE</p>
                   </div>
               </Link>
-              <ul className='list-none hidden sm:flex flex-row gap-10'>
+              <ul className='list-none hidden sm:flex flex-row gap-10 mx-2'>
                   {navLinks.map((Link) => (
                       <li key={Link.id}
                           className={`${active === Link.title
