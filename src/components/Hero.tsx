@@ -53,6 +53,9 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-white font-extrabold text-4xl`}>
             <span className="ease-in">Hi! I&apos;m Bruno</span>
           </h1>
+          <h2 className={`${styles.heroHeadText} text-white font-extrabold`}>
+            Founder of BELINKED.
+          </h2>
           <p
             className={`${styles.heroSubText} mt-2 text-white-100 sm:text-sm ease-in`}
           >
