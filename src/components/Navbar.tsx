@@ -10,7 +10,7 @@ const Navbar = () => {
   const [active, setActive] = useState("")
   const [toggle, setToggle] = useState(false);
   return (
-      <nav className={`w-full flex items-center py-5 fixed top-0 z-20 bg-gradient-to-b from-primary`}>
+      <nav className={`w-full flex items-center py-5 fixed top-0 z-20 bg-black`}>
           <div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
               <Link href="/"
                   className='flex items-center gap-2'
@@ -21,8 +21,8 @@ const Navbar = () => {
               >
                   {/* <img className='w-2/5' src={logoBeLinked} alt="BeLinked logo with a font with light effect" /> */}
                   <div className='ml-5 text-center'>
-                      <h1 className='font-horizon text-3xl logo-neon leading-none text-white'>BELINKED</h1>
-                      <p className='font-aileron text-[9px] tracking-[.25em] leading-none text-white'>CONNECTING PEOPLE</p>
+                      <h1 className='font-horizon text-3xl logo-neon leading-none text-white font-bold tracking-widest'>BRUNO</h1>
+                      <p className='font-aileron text-[9px] tracking-[.25em] leading-none text-white'>FULL-STACK DEV</p>
                   </div>
               </Link>
               <ul className='list-none hidden sm:flex flex-row gap-10 mx-2'>

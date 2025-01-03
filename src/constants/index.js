@@ -13,20 +13,20 @@
   export const navLinks = [
     {
       id: "#about",
-      title: "About us",
+      title: "About me",
     },
     {
       id: "#work",
-      title: "Works",
+      title: "My projects",
     },
     {
       id: "#contact",
-      title: "Contact us",
+      title: "Contact me",
     },
-    {
-      id: "#pricing",
-      title: "Pricing",
-    },
+    // {
+    //   id: "#pricing",
+    //   title: "Pricing",
+    // },
   ];
   
 //   const services = [
