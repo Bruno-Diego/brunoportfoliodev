@@ -72,6 +72,14 @@ export default function RootLayout({
           async
           src="https://kit.fontawesome.com/df96160574.js"
         />
+        <Script
+          id="google-adsense"
+          type="text/javascript"
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1391817810231795"
+        />
+        {/* <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1391817810231795"
+     crossorigin="anonymous"></script> */}
       </body>
     </html>
   );
