@@ -4,13 +4,17 @@ import {
   
   export const navLinks = [
     {
-      id: "#about",
-      title: "About me",
+      id: "#blog",
+      title: "Blog",
     },
     {
       id: "#work",
       title: "My projects",
     },
+    // {
+    //   id: "#about",
+    //   title: "About me",
+    // },
     {
       id: "#contact",
       title: "Contact me",
@@ -165,83 +169,87 @@ import {
     {
       name: "10 Dates para se conectar",
       description:
-      "10 Dates to Connect is an app that helps couples explore topics and questions to strengthen their connection. With a simple and interactive interface, the app offers two main options: choosing a theme or generating a random question, providing moments of dialogue and fun.",    tags: [
+      "10 Dates to Connect is an app that helps couples explore topics and questions to strengthen their connection. With a simple and interactive interface, the app offers two main options: choosing a theme or generating a random question, providing moments of dialogue and fun.",    
+      tags: [
         {
-          name: "Trattoria",
+          name: "couples",
           color: "blue-text-gradient",
         },
         {
-          name: "Online presence",
+          name: "relationship",
           color: "green-text-gradient",
         },
         {
-          name: "SEO improved",
+          name: "game",
           color: "pink-text-gradient",
         },
       ],
       image: github,
-      source_code_link: "https://trattoriamodel.belinked.website/",
+      source_code_link: "https://dates.belinked.website/",
     },
     {
-      name: "R. Silva Ingegneria",
+      name: "StarTurchis Pizza&Kebab",
       description:
-      "Success case of an engineering and construction company based in Brazil that built its website with us.",    tags: [
+      "Pizzeria e Kebab restaurant based in Ivrea(TO), Italy.",    
+      tags: [
         {
-          name: "ingegneria",
+          name: "restaurant",
           color: "blue-text-gradient",
         },
         {
-          name: "costruzioni",
+          name: "food",
           color: "green-text-gradient",
         },
         {
-          name: "Medium Business",
+          name: "pizza",
           color: "pink-text-gradient",
         },
       ],
       image: github,
-      source_code_link: "https://rsilvaengenharia.com.br/",
+      source_code_link: "https://starturchis.belinked.website/",
     },
     {
-      name: "DuPow Rapper",
+      name: "Horus Game",
       description:
-      "EDUPOW is a Brazilian rapper who brings a new perspective to music. With his impactful lyrics and infectious beats, he captivates audiences with his unique talent.",    tags: [
+      "A fun and addictive game inspired by the classic Flappy Bird! Horus is a JavaScript-based game that challenges your hand-eye coordination and reflexes.",    
+      tags: [
         {
-          name: "Musica Portfolio",
+          name: "game",
           color: "blue-text-gradient",
         },
         {
-          name: "Personale",
+          name: "flappy bird",
           color: "green-text-gradient",
         },
         {
-          name: "Online Presence",
+          name: "space only",
           color: "pink-text-gradient",
         },
       ],
       image: github,
-      source_code_link: "https://royalblue-porcupine-780650.builder-preview.com/",
+      source_code_link: "https://bruno-diego.github.io/horus-game/",
     },
-    {
-      name: "Valdenir da Silva Avvogato",
-      description:
-      "The Brazilian lawyer has focused on expanding his name across the country with hundreds of successful clients.",    tags: [
-        {
-          name: "Avvocato",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Online presence",
-          color: "green-text-gradient",
-        },
-        {
-          name: "SEO improved",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: github,
-      source_code_link: "https://yellowgreen-viper-761573.builder-preview.com/",
-    },
+    // {
+    //   name: "Valdenir da Silva Avvogato",
+    //   description:
+    //   "The Brazilian lawyer has focused on expanding his name across the country with hundreds of successful clients.",    
+    //   tags: [
+    //     {
+    //       name: "Avvocato",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "Online presence",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "SEO improved",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: github,
+    //   source_code_link: "https://yellowgreen-viper-761573.builder-preview.com/",
+    // },
   ];
   
   export const socialLinks = [

@@ -2,10 +2,10 @@
 import React from "react";
 import { Tilt } from "react-next-tilt";
 import { motion } from "framer-motion";
-import { github } from "@/assets/index";
 import { projects } from "@/constants/index";
 import { fadeIn, textVariant } from "@/utils/motion";
-import Image, { StaticImageData } from "next/image";
+// import Image, { StaticImageData } from "next/image";
+import Link from "next/link";
 
 // Define the types for the tags and project props
 interface Tag {
@@ -18,7 +18,7 @@ interface Project {
   name: string;
   description: string;
   tags: Tag[];
-  image: StaticImageData;
+  // image: StaticImageData;
   source_code_link: string;
 }
 
@@ -27,11 +27,14 @@ const ProjectCard: React.FC<Project> = ({
   name,
   description,
   tags,
-  image,
+  // image,
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      className="mx-auto"
+    >
       <Tilt
         tiltMaxAngleX={45}
         tiltMaxAngleY={45}
@@ -42,46 +45,51 @@ const ProjectCard: React.FC<Project> = ({
         spotGlareColor={"black"}
         className="p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
-          {/* <Image
+        <Link href={source_code_link} target="_blank" className="relative w-full h-[230px] cursor-pointer">
+          <div className="relative w-full h-[230px] cursor-pointer">
+            {/* <Image
             src={image}
             alt="project_image"
             className="w-full h-full object-cover rounded-2xl"
           /> */}
-          <div className="w-full h-full overflow-hidden">
-            <iframe
-              src={"https://dates.belinked.website/"}
-              className="w-full h-full rounded-2xl overflow-hidden"
-              scrolling="no" // Prevents scrollbars in the iframe
-              style={{
-                border: "none", // Removes border
-                width: "100%",
-                height: "100%",
-                overflow: "hidden", // Hides scrollbars
-              }}
-            />
-          </div>
-
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <Image
-                src={github}
-                alt="source code"
-                className="w-1/2 h-1/2 object-contain"
+            <div className="w-full h-full overflow-hidden">
+              <iframe
+                src={source_code_link}
+                className="w-full h-full rounded-2xl overflow-hidden"
+                scrolling="no" // Prevents scrollbars in the iframe
+                style={{
+                  border: "none", // Removes border
+                  transformOrigin: "0 0", // Mantém o ponto de origem no topo esquerdo
+                  transform: "scale(0.2)", // Ajuste o valor conforme necessário
+                  width: "500%",
+                  height: "500%",
+                  overflow: "hidden", // Hides scrollbars
+                  pointerEvents: "none",
+                }}
               />
             </div>
+
+            {/* <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+            <div
+            onClick={() => window.open(source_code_link, "_blank")}
+            className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            >
+            <Image
+            src={github}
+            alt="source code"
+            className="w-1/2 h-1/2 object-contain"
+            />
+            </div>
+            </div> */}
           </div>
-        </div>
+        </Link>
 
         <div className="mt-5">
           <h3 className="text-stone-300 font-bold text-[24px]">{name}</h3>
           <p className="mt-2 text-stone-400 text-[14px]">{description}</p>
         </div>
 
-        <div className="mt-4 flex flex-wrap gap-2">
+        <div className="mt-4 flex flex-wrap gap-2 justify-center">
           {tags.map((tag) => (
             <p key={`${name}-${tag.name}`} className={`text-[14px] text-white`}>
               #{tag.name}
@@ -95,7 +103,7 @@ const ProjectCard: React.FC<Project> = ({
 
 const Works = () => {
   return (
-    <div className="m-10">
+    <div id="work" className="my-10 mx-10 md:mx-16">
       <motion.div variants={textVariant()}>
         <p
           className={`sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider`}
