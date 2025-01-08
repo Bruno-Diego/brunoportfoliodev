@@ -28,16 +28,14 @@ const Navbar = () => {
           <div className="flex flex-col">
             <p className="text-white text-2xl font-bold cursor-pointer flex">
               BELINKED &nbsp;
-              <span className="sm:block hidden">
-                <Separator orientation="vertical" />
+              <span className="sm:block hidden">|</span>
+              <span className="sm:block hidden text-base my-auto">
+                &nbsp; Web Development
               </span>
-              <span className="sm:block hidden text-base my-auto">&nbsp; Web Development</span>
             </p>
+            <Separator />
             <p className="text-white text-xs font-bold cursor-pointer text-center">
               by Bruno Diego da Silva &nbsp;
-              <span className="sm:block hidden">
-                <Separator />
-              </span>
               <span className="sm:block hidden">
                 &nbsp; Full-Stack Developer
               </span>

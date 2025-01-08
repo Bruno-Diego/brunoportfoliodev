@@ -56,11 +56,12 @@ const Hero = () => {
           <h2 className={`${styles.heroHeadText} text-white font-extrabold`}>
             Founder of BELINKED.
           </h2>
+          <Separator />
           <p
             className={`${styles.heroSubText} mt-2 text-white-100 sm:text-sm ease-in`}
           >
-            I will empower your business with tailored web solutions
-            <Separator />
+            I will empower your business with tailored web solutions.
+            <br />
             Let&apos;s Build, Scale, and Thrive Together.
           </p>
         </div>

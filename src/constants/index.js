@@ -1,14 +1,6 @@
-// import {
-//     ecommerce,
-//     backend,
-//     creator,
-//     web,
-//     www,
-//     dupow,
-//     lawer,
-//     rsilva,
-//     trattoria,
-//   } from "../assets";
+import {
+    github,
+  } from "../assets";
   
   export const navLinks = [
     {
@@ -169,88 +161,88 @@
 //     },
 //   ];
   
-//   const projects = [
-//     {
-//       name: "Trattoria Italiana",
-//       description:
-//       "In a hidden corner of Italy, among the bright colors of the sunflower fields and the seductive scent of freshly picked basil and tomatoes, you will find our culinary oasis. The Trattoria del Gusto Autentico is a jewel that celebrates Italian cuisine in its purer and more passionate.",    tags: [
-//         {
-//           name: "Trattoria",
-//           color: "blue-text-gradient",
-//         },
-//         {
-//           name: "Online presence",
-//           color: "green-text-gradient",
-//         },
-//         {
-//           name: "SEO improved",
-//           color: "pink-text-gradient",
-//         },
-//       ],
-//       image: trattoria,
-//       source_code_link: "https://trattoriamodel.belinked.website/",
-//     },
-//     {
-//       name: "R. Silva Ingegneria",
-//       description:
-//       "Success case of an engineering and construction company based in Brazil that built its website with us.",    tags: [
-//         {
-//           name: "ingegneria",
-//           color: "blue-text-gradient",
-//         },
-//         {
-//           name: "costruzioni",
-//           color: "green-text-gradient",
-//         },
-//         {
-//           name: "Medium Business",
-//           color: "pink-text-gradient",
-//         },
-//       ],
-//       image: rsilva,
-//       source_code_link: "https://rsilvaengenharia.com.br/",
-//     },
-//     {
-//       name: "DuPow Rapper",
-//       description:
-//       "EDUPOW is a Brazilian rapper who brings a new perspective to music. With his impactful lyrics and infectious beats, he captivates audiences with his unique talent.",    tags: [
-//         {
-//           name: "Musica Portfolio",
-//           color: "blue-text-gradient",
-//         },
-//         {
-//           name: "Personale",
-//           color: "green-text-gradient",
-//         },
-//         {
-//           name: "Online Presence",
-//           color: "pink-text-gradient",
-//         },
-//       ],
-//       image: dupow,
-//       source_code_link: "https://royalblue-porcupine-780650.builder-preview.com/",
-//     },
-//     {
-//       name: "Valdenir da Silva Avvogato",
-//       description:
-//       "The Brazilian lawyer has focused on expanding his name across the country with hundreds of successful clients.",    tags: [
-//         {
-//           name: "Avvocato",
-//           color: "blue-text-gradient",
-//         },
-//         {
-//           name: "Online presence",
-//           color: "green-text-gradient",
-//         },
-//         {
-//           name: "SEO improved",
-//           color: "pink-text-gradient",
-//         },
-//       ],
-//       image: lawer,
-//       source_code_link: "https://yellowgreen-viper-761573.builder-preview.com/",
-//     },
-//   ];
+  export const projects = [
+    {
+      name: "10 Dates para se conectar",
+      description:
+      "10 Dates to Connect is an app that helps couples explore topics and questions to strengthen their connection. With a simple and interactive interface, the app offers two main options: choosing a theme or generating a random question, providing moments of dialogue and fun.",    tags: [
+        {
+          name: "Trattoria",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Online presence",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SEO improved",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: github,
+      source_code_link: "https://trattoriamodel.belinked.website/",
+    },
+    {
+      name: "R. Silva Ingegneria",
+      description:
+      "Success case of an engineering and construction company based in Brazil that built its website with us.",    tags: [
+        {
+          name: "ingegneria",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "costruzioni",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Medium Business",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: github,
+      source_code_link: "https://rsilvaengenharia.com.br/",
+    },
+    {
+      name: "DuPow Rapper",
+      description:
+      "EDUPOW is a Brazilian rapper who brings a new perspective to music. With his impactful lyrics and infectious beats, he captivates audiences with his unique talent.",    tags: [
+        {
+          name: "Musica Portfolio",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Personale",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Online Presence",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: github,
+      source_code_link: "https://royalblue-porcupine-780650.builder-preview.com/",
+    },
+    {
+      name: "Valdenir da Silva Avvogato",
+      description:
+      "The Brazilian lawyer has focused on expanding his name across the country with hundreds of successful clients.",    tags: [
+        {
+          name: "Avvocato",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Online presence",
+          color: "green-text-gradient",
+        },
+        {
+          name: "SEO improved",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: github,
+      source_code_link: "https://yellowgreen-viper-761573.builder-preview.com/",
+    },
+  ];
   
   export const socialLinks = [
     {
