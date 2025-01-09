@@ -6,6 +6,7 @@ import Hero from './Hero';
 import Works from './Works';
 import Contact from './Contact';
 import Footer from './Footer';
+import Blogposts from './Blogposts';
 // import Upbutton from './Upbutton';
 
 export {
@@ -17,5 +18,6 @@ export {
     Works,
     Contact,
     Footer,
+    Blogposts,
     // Upbutton,
 }

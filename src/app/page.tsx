@@ -1,4 +1,4 @@
-import { Navbar, Hero, Footer, Works, Contact } from '@/components'
+import { Navbar, Hero, Footer, Works, Contact, Blogposts } from '@/components'
 import { StarsCanvas } from '@/components/canvas';
 
 
@@ -8,6 +8,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Works />
+      <Blogposts />
       <Contact />
       <StarsCanvas />
       <Footer />
