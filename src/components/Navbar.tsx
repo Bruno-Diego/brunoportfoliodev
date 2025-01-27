@@ -27,17 +27,18 @@ const Navbar = () => {
         >
           <div className="flex flex-col">
             <p className="text-white text-2xl font-bold cursor-pointer flex">
-              BELINKED &nbsp;
-              <span className="sm:block hidden">|</span>
+              BELINKED BLOGS 
+              {/* &nbsp; */}
+              {/* <span className="sm:block hidden">|</span>
               <span className="sm:block hidden text-base my-auto">
-                &nbsp; Web Development
-              </span>
+                &nbsp; Blogs
+              </span> */}
             </p>
             <Separator />
             <p className="text-white text-xs font-bold cursor-pointer text-center">
-              by Bruno Diego da Silva &nbsp;
+              by BrunoDS &nbsp;
               <span className="sm:block hidden">
-                &nbsp; Full-Stack Developer
+                &nbsp;Blog editor and Full-Stack Developer
               </span>
             </p>
           </div>

@@ -19,8 +19,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className='mt-8 text-sm text-center text-white'>
-                <p>&copy; 2023 Bruno Diego da Silva. All rights reserved.</p>
-                <p>Developed by Bruno Diego da Silva.</p>
+                <p>&copy; 2025 BrunoDS. All rights reserved.</p>
                 <p>Thank you for visiting!</p>
             </div>
         </footer>

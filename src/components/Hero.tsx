@@ -44,25 +44,25 @@ const Hero = () => {
       <div
         className={`absolute inset-0 top-[120px]  max-w-7xl flex items-start gap-5 justify-center	`}
       >
-        <div className={`flex flex-col justify-center items-center mt-5 ${styles.paddingX}`}>
+        {/* <div className={`flex flex-col justify-center items-center mt-5 ${styles.paddingX}`}>
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
-        </div>
+        </div> */}
 
         <div className="mt-2">
           <h1 className={`${styles.heroHeadText} text-white font-extrabold text-4xl`}>
             <span className="ease-in">Hi! I&apos;m Bruno</span>
           </h1>
           <h2 className={`${styles.heroHeadText} text-white font-extrabold`}>
-            Founder of BELINKED.
+            Founder and editor of many blogs.
           </h2>
           <Separator />
           <p
             className={`${styles.heroSubText} mt-2 text-white-100 sm:text-sm ease-in`}
           >
-            I will empower your business with tailored web solutions.
-            <br />
-            Let&apos;s Build, Scale, and Thrive Together.
+            Let&apos;s explore Tech, Trends, and News together with Insights from a Passionate Developer.
+            {/* <br />
+            Let&apos;s Build, Scale, and Thrive Together. */}
           </p>
         </div>
       </div>

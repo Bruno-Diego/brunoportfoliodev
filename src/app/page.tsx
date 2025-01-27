@@ -7,8 +7,8 @@ export default function Home() {
     <div className="flex flex-col relative z-0 bg-primary">
       <Navbar />
       <Hero />
-      <Works />
       <Blogposts />
+      <Works />
       <Contact />
       <StarsCanvas />
       <Footer />
