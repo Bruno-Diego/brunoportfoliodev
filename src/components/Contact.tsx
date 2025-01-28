@@ -10,18 +10,19 @@ const Contact = () => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
-    // console.log(process.env.NEXT_PUBLIC_GOOGLE_APPS_SCRIPT_URL)
     try {
-      const response = await fetch(process.env.NEXT_PUBLIC_GOOGLE_APPS_SCRIPT_URL, {
-        method: "POST",
-        mode: "no-cors",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ email }),
-      });
-      console.log(response)
+      const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbz2FhOVUT6w3sxuvoQTEvrNAZRyxfPw9DeFLa0MHCj4Fx2c9xWOh3ZBzasY02jDPXxM/exec",
+        {
+          method: "POST",
+          mode: "no-cors",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ email }),
+        }
+      );
+      console.log(response);
 
       setMessage("Thank you for subscribing!");
       setEmail("");
