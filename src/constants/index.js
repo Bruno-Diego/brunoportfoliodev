@@ -16,8 +16,8 @@ import {
     //   title: "About me",
     // },
     {
-      id: "#contact",
-      title: "Contact me",
+      id: "#about",
+      title: "About me",
     },
     // {
     //   id: "#pricing",
@@ -264,9 +264,9 @@ import {
       icon: "fa-brands fa-instagram fa-2xl",
     },
     {
-      title: "WhatsApp",
-      url: "https://wa.me/393317447323?text=Ciao%20vorrei%20creare%20un%20sito%20web!",
-      icon: "fa-brands fa-whatsapp fa-2xl",
+      title: "X",
+      url: "https://x.com/BrunoDiegox",
+      icon: "fa-brands fa-x-twitter fa-2xl",
     },
   ];
   
