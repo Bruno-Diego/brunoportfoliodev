@@ -209,25 +209,25 @@ import {
       source_code_link: "https://starturchis.belinked.website/",
     },
     {
-      name: "Horus Game",
+      name: "BrunoDS Trending Vibes Blog",
       description:
-      "A fun and addictive game inspired by the classic Flappy Bird! Horus is a JavaScript-based game that challenges your hand-eye coordination and reflexes.",    
+      "Stay updated with the latest news and trends on various topics, including technology, health, and global events.",    
       tags: [
         {
-          name: "game",
+          name: "blog",
           color: "blue-text-gradient",
         },
         {
-          name: "flappy bird",
+          name: "trends",
           color: "green-text-gradient",
         },
         {
-          name: "space only",
+          name: "news",
           color: "pink-text-gradient",
         },
       ],
       image: github,
-      source_code_link: "https://bruno-diego.github.io/horus-game/",
+      source_code_link: "https://brunotrends.belinked.website/",
     },
     // {
     //   name: "Valdenir da Silva Avvogato",

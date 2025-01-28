@@ -1,12 +1,12 @@
-"use client"
+"use client";
 import { motion } from "framer-motion";
 import { styles } from "@/utils/styles";
 import { GlobeCanvas } from "./canvas";
 
 import { slideIn } from "@/utils/motion";
 
-import { Separator } from "@/components/ui/separator"
-
+import { Separator } from "@/components/ui/separator";
+import BlogCarosel from "./BlogCarosel";
 
 const Hero = () => {
   const handleAcceptClick = () => {
@@ -50,7 +50,9 @@ const Hero = () => {
         </div> */}
 
         <div className="mt-2">
-          <h1 className={`${styles.heroHeadText} text-white font-extrabold text-4xl`}>
+          <h1
+            className={`${styles.heroHeadText} text-white font-extrabold text-4xl`}
+          >
             <span className="ease-in">Hi! I&apos;m Bruno</span>
           </h1>
           <h2 className={`${styles.heroHeadText} text-white font-extrabold`}>
@@ -58,12 +60,16 @@ const Hero = () => {
           </h2>
           <Separator />
           <p
-            className={`${styles.heroSubText} mt-2 text-white-100 sm:text-sm ease-in`}
+            className={`${styles.heroSubText} my-2 text-white-100 sm:text-sm ease-in`}
           >
-            Let&apos;s explore Tech, Trends, and News together with Insights from a Passionate Developer.
+            Let&apos;s explore Tech, Trends, and News together with Insights
+            from a Passionate Developer.
             {/* <br />
             Let&apos;s Build, Scale, and Thrive Together. */}
           </p>
+        <div className="flex my-4">
+          <BlogCarosel />
+        </div>
         </div>
       </div>
       <section className="cookieSec fixed max-w-md p-4 mx-auto bg-white border border-gray-200 dark:bg-gray-800 left-12 bottom-16 dark:border-gray-700 rounded-2xl z-50">
