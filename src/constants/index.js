@@ -164,50 +164,8 @@ import {
 //         "https://cdn1.mundodastribos.com/713183-Silvio-Santos-se-nega-a-criar-programa-para-mulheres-01.jpg",
 //     },
 //   ];
-  
-  export const projects = [
-    {
-      name: "10 Dates para se conectar",
-      description:
-      "10 Dates to Connect is an app that helps couples explore topics and questions to strengthen their connection. With a simple and interactive interface, the app offers two main options: choosing a theme or generating a random question, providing moments of dialogue and fun.",    
-      tags: [
-        {
-          name: "couples",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "relationship",
-          color: "green-text-gradient",
-        },
-        {
-          name: "game",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: github,
-      source_code_link: "https://dates.belinked.website/",
-    },
-    {
-      name: "StarTurchis Pizza&Kebab",
-      description:
-      "Pizzeria e Kebab restaurant based in Ivrea(TO), Italy.",    
-      tags: [
-        {
-          name: "restaurant",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "food",
-          color: "green-text-gradient",
-        },
-        {
-          name: "pizza",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: github,
-      source_code_link: "https://starturchis.belinked.website/",
-    },
+
+export const projects = [
     {
       name: "BrunoDS Trending Vibes Blog",
       description:
@@ -228,6 +186,48 @@ import {
       ],
       image: github,
       source_code_link: "https://brunotrends.belinked.website/",
+    },
+    {
+      name: "10 Dates para se conectar (Dates for couples)",
+      description:
+      "10 Dates to Connect is an app that helps couples explore topics and questions to strengthen their connection. With a simple and interactive interface, the app offers two main options: choosing a theme or generating a random question, providing moments of dialogue and fun.",    
+      tags: [
+        {
+          name: "couples",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "relationship",
+          color: "green-text-gradient",
+        },
+        {
+          name: "game",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: github,
+      source_code_link: "https://dates.belinked.website/",
+    },
+    {
+      name: "StarTurchis Italian Pizza&Kebab",
+      description:
+      "Pizzeria e Kebab restaurant based in Ivrea(TO), Italy.",    
+      tags: [
+        {
+          name: "restaurant",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "food",
+          color: "green-text-gradient",
+        },
+        {
+          name: "pizza",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: github,
+      source_code_link: "https://starturchis.belinked.website/",
     },
     // {
     //   name: "Valdenir da Silva Avvogato",

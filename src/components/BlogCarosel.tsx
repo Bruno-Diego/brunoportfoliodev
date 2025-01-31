@@ -33,7 +33,7 @@ const BlogCarosel = () => {
                       <div className="w-full h-full overflow-hidden relative rounded-2xl">
                         {" "}
                         {/* Adicione relative aqui */}
-                        <span className="text-4xl text-center forced-color-adjust-auto font-semibold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+                        <span className="text-2xl text-center forced-color-adjust-auto font-semibold absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
                           {project.name}
                         </span>
                         <iframe
