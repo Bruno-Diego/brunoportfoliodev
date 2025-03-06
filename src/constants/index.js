@@ -185,7 +185,7 @@ export const projects = [
         },
       ],
       image: github,
-      source_code_link: "https://brunotrends.belinked.website/",
+      source_code_link: "https://trendingvibes.blog/",
     },
     {
       name: "10 Dates para se conectar (Dates for couples)",
