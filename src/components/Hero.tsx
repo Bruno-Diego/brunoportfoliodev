@@ -42,7 +42,7 @@ const Hero = () => {
       className={`relative flex flex-column w-full h-screen mx-auto overflow-hidden`}
     >
       <div
-        className={`absolute inset-0 top-[120px]  max-w-7xl flex items-start gap-5 justify-center	`}
+        className={`absolute inset-0 top-[120px] flex items-start gap-5 justify-center	`}
       >
         {/* <div className={`flex flex-col justify-center items-center mt-5 ${styles.paddingX}`}>
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
