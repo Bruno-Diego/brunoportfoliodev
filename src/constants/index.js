@@ -254,19 +254,24 @@ export const projects = [
   
   export const socialLinks = [
     {
-      title: "Facebook",
-      url: "https://www.facebook.com/belinkedweb/",
-      icon: "fa-brands fa-facebook fa-2xl",
+      title: "LinkedIn",
+      url: "https://www.linkedin.com/in/bruno-diego-da-silva-151027192/",
+      icon: "fa-brands fa-linkedin fa-2xl",
     },
     {
       title: "Instagram",
-      url: "https://www.instagram.com/belinkedweb/",
+      url: "https://www.instagram.com/brunods____/",
       icon: "fa-brands fa-instagram fa-2xl",
     },
     {
       title: "X",
       url: "https://x.com/BrunoDiegox",
       icon: "fa-brands fa-x-twitter fa-2xl",
+    },
+    {
+      title: "Whatsapp",
+      url: "https://wa.me/3530834174301?Hi! I would like to start a project, here's my idea:",
+      icon: "fa-brands fa-whatsapp fa-2xl",
     },
   ];
   

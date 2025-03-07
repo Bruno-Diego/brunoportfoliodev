@@ -26,8 +26,8 @@ const Navbar = () => {
           }}
         >
           <div className="flex flex-col">
-            <p className="text-white text-2xl font-bold cursor-pointer flex">
-              BELINKED BLOGS 
+            <p className="text-white mx-auto text-2xl font-bold cursor-pointer flex">
+              BRUNO DIEGO 
               {/* &nbsp; */}
               {/* <span className="sm:block hidden">|</span>
               <span className="sm:block hidden text-base my-auto">
@@ -36,9 +36,9 @@ const Navbar = () => {
             </p>
             <Separator />
             <p className="text-white text-xs font-bold cursor-pointer text-center">
-              by BrunoDS &nbsp;
+              {/* by BrunoDS &nbsp; */}
               <span className="sm:block hidden">
-                &nbsp;Blog editor and Full-Stack Developer
+                &nbsp;Freelancer, Blog Editor and Full-Stack Developer
               </span>
             </p>
           </div>

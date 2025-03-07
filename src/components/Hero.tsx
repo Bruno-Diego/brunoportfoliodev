@@ -55,9 +55,9 @@ const Hero = () => {
           >
             <span className="ease-in">Hi! I&apos;m Bruno</span>
           </h1>
-          <h2 className={`${styles.heroHeadText} text-white font-extrabold`}>
+          {/* <h2 className={`${styles.heroHeadText} text-white font-extrabold`}>
             Founder and editor of many blogs.
-          </h2>
+          </h2> */}
           <Separator />
           <p
             className={`${styles.heroSubText} my-2 text-white-100 sm:text-sm ease-in`}
